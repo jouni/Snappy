@@ -1,0 +1,12 @@
+/build
+/.settings
+/.project
+/.classpath
+/GWT development mode for Snappy.launch
+
+WebContent/WEB-INF/lib/wro4j-runner-1.4.4-jar-with-dependencies.jar
+
+WebContent/WEB-INF/lib/vaadin*
+
+WebContent/WEB-INF/lib/themebuilder*
+

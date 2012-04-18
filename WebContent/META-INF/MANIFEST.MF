@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Implementation-Title: Snappy
+Implementation-Version: 0.9
+Vaadin-Package-Version: 1
+Class-Path: 
+Vaadin-Widgetsets: org.vaadin.snappy.SnappyWidgetset
+

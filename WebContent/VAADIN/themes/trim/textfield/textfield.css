@@ -1,0 +1,45 @@
+.v-textfield {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	border: none;
+	border-bottom: .2em solid #0fb7ff;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(img/border.png), url(img/border.png);
+	background-position: 0 100%, 100% 100%;
+	vertical-align: top;
+	margin: 0;
+	}
+
+.v-app input.v-textfield {
+	padding: .5em .3em .3em;
+	line-height: 1;
+	}
+
+.v-textfield:hover {
+	outline: none;
+	background-color: rgba(255,255,255,.03);
+	}
+
+.v-textfield-focus,
+.v-textfield:focus {
+	outline: none;
+	background-color: rgba(255,255,255,.1);
+	}
+
+input.v-textfield-prompt {
+	font-style: normal;
+	color: #777;
+	}
+
+input.v-textfield.v-disabled,
+input.v-textfield.v-disabled:focus,
+input.v-textfield.v-disabled:hover {
+	background-color: transparent;
+	color: #bbb;
+	border-color: #878787;
+	background-image: url(img/border-disabled.png), url(img/border-disabled.png);
+	}

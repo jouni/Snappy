@@ -1,0 +1,179 @@
+/* @import "variables.css"; */
+
+@font: "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+.border-box {
+ 	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+@import "../base/styles.css";
+
+@import "common/common.css";
+@import "textfield/textfield.css";
+@import "button/button.css";
+@import "panel/panel.css";
+
+@import "codelabel.css";
+
+.test {
+	border: 2px solid red;
+	background: red;
+}
+
+.search-demo .v-button {
+	margin: 0 .7em;
+}
+
+.label-value-demo .v-button {
+	margin-top: 1.3em;
+}
+
+.enable-disable-demo .v-button,
+.styles-demo .v-button {
+	margin: 0 1em 1em 0;
+}
+
+.mouse-event-demo .target {
+	display: inline-block;
+	margin-left: 1em;
+	background-position: 0 50%;
+	padding-left: 2em;
+}
+
+em {
+	font-style: normal;
+	background: #505e64;
+	padding: 0 .2em;
+	margin: 0 -.2em;
+	color: #fff;
+}
+
+.badge {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	white-space: normal;
+	width: 14.5em;
+	margin: 0;
+	background: transparent;
+	padding: 1em;
+	font-size: .9em;
+}
+
+.badge strong {
+	display: block;
+}
+
+.badge span {
+	font-size: .85em;
+	color: #aaa;
+}
+
+
+.snappy-tabs {
+	position: relative;
+	/* Default width */
+	min-width: 600px;
+	overflow: visible;
+}
+
+.snappy-tabs.vertical > div,
+.snappy-tabs.vertical > div > div {
+	height: 100%;
+}
+
+.snappy-tabs-buttons {
+	overflow: visible;
+}
+
+.vertical > div > div > .snappy-tabs-buttons {
+	width: 15em;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+}
+
+.snappy-tabs-buttons .v-button {
+	margin-right: 1px;
+	.border-box;
+	height: 2.2em;
+}
+
+.vertical > div > div > .snappy-tabs-buttons .v-button {
+	width: 100%;
+	display: block;
+	margin: 0 0 1px;
+	text-align: left;
+}
+
+.snappy-tabs-content {
+	-webkit-transition: 300ms linear opacity;
+	-moz-transition: 300ms linear opacity;
+	-ms-transition: 300ms linear opacity;
+	-o-transition: 300ms linear opacity;
+	transition: 300ms linear opacity;
+}
+
+.vertical > div > div > .snappy-tabs-content {
+	position: absolute;
+	left: 15.1em;
+	top: 0;
+}
+
+.vertical > div > div > .v-csslayout-snappy-tabs-content {
+	width: auto !important;
+	right: 0;
+	bottom: 0;
+	overflow: auto;
+}
+
+.vertical > div > div > .v-csslayout-snappy-tabs-content > .v-csslayout-margin {
+	margin: 1em 2em;
+}
+
+.hide {
+	visibility: hidden;
+	position: absolute;
+	opacity: 0;
+}
+
+.snappy-tabs-buttons .selected {
+	-webkit-transition: 200ms linear border-width;
+	-moz-transition: 200ms linear border-width;
+	-ms-transition: 200ms linear border-width;
+	-o-transition: 200ms linear border-width;
+	transition: 200ms linear border-width;
+}
+
+.snappy-tabs-buttons .selected {
+	border-bottom: 3px solid #0fb7ff;
+}
+
+.vertical > div > div > .snappy-tabs-buttons .selected {
+	border-bottom: none;
+	border-right: 3px solid #0fb7ff;
+}
+
+.snappy-tabs-buttons .v-label {
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+
+
+.styles-demo .v-panel-caption {
+	-webkit-transition: 200ms linear background-color;
+	-moz-transition: 200ms linear background-color;
+	-ms-transition: 200ms linear background-color;
+	-o-transition: 200ms linear background-color;
+	transition: 200ms linear background-color;
+}
+
+.styles-demo .selected .v-panel-caption {
+	background: #0fb7ff;
+	color: #fff;
+	font-weight: bold;
+}

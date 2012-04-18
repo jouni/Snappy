@@ -1,0 +1,53 @@
+.v-button {
+	border: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+	background: rgba(255,255,255,.15);
+	vertical-align: top;
+	color: #d5d5d5;
+	}
+
+.v-button-wrap {
+	padding: .5em 1.5em;
+	display: inline-block;
+	border: 1px solid transparent;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	}
+
+.v-button-wrap,
+.v-button-caption {
+	line-height: 1em;
+	}
+
+.v-button-caption {
+	font-size: .9em;
+	font-weight: bold;
+	}
+
+.v-button:focus,
+.v-button:hover {
+	outline: none;
+	background: rgba(255,255,255,.20);
+	}
+
+.v-button:active {
+	background: rgba(255,255,255,.1);
+	}
+
+.v-button.v-disabled,
+.v-button.v-disabled:hover,
+.v-button.v-disabled:active {
+	background: transparent;
+	color: #555;
+	}
+
+.v-button.v-disabled .v-button-wrap,
+.v-button.v-disabled:hover .v-button-wrap,
+.v-button.v-disabled:active .v-button-wrap {
+	border-color: rgba(255,255,255,.1);
+	}

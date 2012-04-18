@@ -1,0 +1,11 @@
+.v-panel-caption {
+	background: rgba(255,255,255,.07);
+	margin-bottom: 1px;
+	padding: .5em 1em;
+	font-weight: normal;
+	color: #eee;
+}
+
+.v-panel-content {
+	background: rgba(255,255,255,.10);
+}
